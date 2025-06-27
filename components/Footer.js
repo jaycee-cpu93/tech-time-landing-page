@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import menuLogo from "../assets/menu-logo.svg";
-import { clashDisplayFont, clashDisplayRegularFont, satoshiFontRegular } from "@/lib/fonts";
-import {FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaYoutube, FaDiscord} from 'react-icons/fa';
+import { clashDisplayFont, satoshiFontRegular } from "@/lib/fonts";
+import {FaFacebook, FaTwitter, FaInstagram, FaYoutube, FaDiscord} from 'react-icons/fa';
 
 export default function Footer() {
   return (

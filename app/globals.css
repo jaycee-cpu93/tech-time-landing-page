@@ -1,8 +1,16 @@
 @import "tailwindcss";
 
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primaryBg: #004DB3;
+  --secondaryBg: #CCDBF0;
+  --tertiaryBg: #F8F9FC;
+  --smallRing: #00C040;
+  --smallCircle: #FFBE4E;
+  --textPrimary: #000F24;
+--textSecondary: #A1A1A1;
 }
 
 @theme inline {
@@ -10,14 +18,30 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-primary: var(--primaryBg);
+  --color-secondary: var(--secondaryBg);
+  --color-tertiary: var(--tertiaryBg);
+  --font-header: var(--font-satoshi);
+  --color-smallRing: var(--smallRing);
+  --color-smallCircle: var(--smallCircle);
+  --text-tiny: 0.5rem;
+  --text-tiny--line-height: 0.908rem; 
+  --text-header-mobile: 2rem;
+  --text-header-mobile--line-height: 2.863rem;
+  --text-secondHeader: 3.5rem;
+  --text-header-secondHeader--line-height: 4.375rem;
+  --text-header-desktop: 4rem;
+  --text-header-desktop--line-height: 5.125rem;
+  --color-textPrimary: var(--textPrimary);
+  --color-textSecondary: var(--textSecondary);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #0a0a0a; 
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   background: var(--background);

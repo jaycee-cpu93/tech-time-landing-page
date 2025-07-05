@@ -1,0 +1,36 @@
+// export default function Testing() {
+//     return(
+//          <section>
+//             <div className="bg-green-200 p-6">
+//               <div className="max-w-7xl mx-auto grid lg:grid-cols-4 gap-6 h-full">
+//                 {/* Main 4 Rows (left side) */}
+//                 <div className="lg:col-span-2 space-y-6">
+//                   {/* Row 1 */}
+//                   <div className="bg-white p-6 rounded-xl shadow">Row 1 - One Item</div>
+
+//                   {/* Row 2 */}
+//                   <div className="bg-white p-6 rounded-xl shadow">Row 2 - One Item</div>
+//                   <div className="bg-white p-6 rounded-xl shadow">Row 3 - One Item</div>
+
+//                   {/* Row 3 - Two Items in Two Columns */}
+                 
+//                 </div>
+
+//                 {/* Sidebar / Side Item */}
+//                 <div className="lg:col-span-2 space-y-6">
+//                    <div className="grid grid-rows-2 gap-y-4">
+//                         <div className="grid grid-cols-2 gap-x-4">
+//                           <div className="bg-white p-6 rounded-xl shadow">Item 1</div>
+//                           <div className="bg-white p-6 rounded-xl shadow">Item 3</div>
+//                         </div>
+//                         <div className="grid grid-cols-2 gap-x-8">
+//                           <div className="bg-white p-6 rounded-xl shadow">Item 2</div>
+//                           <div className="bg-white p-6 rounded-xl shadow">Item 4</div>
+//                         </div>
+//                       </div>
+//                 </div>
+//               </div>
+//             </div>
+//       </section>
+//     )
+// }

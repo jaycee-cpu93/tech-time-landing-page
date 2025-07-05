@@ -64,7 +64,7 @@ import {
   
             />
         </div>
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6 md:px-6">
           {/* Main 4 Rows (left side) */}
           <div className="space-y-6">
             <div className="hidden md:flex justify-between px-10 pb-10">

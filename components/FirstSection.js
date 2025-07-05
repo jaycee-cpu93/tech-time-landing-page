@@ -28,7 +28,7 @@ export default function FirstSection() {
           <div className="absolute right-0 top-[10%]">
             <Image src={rightzigzagDesktop} alt="right zig zag" width={50} height={4} className="hidden md:block" />
           </div>
-           <div className="hidden md:block absolute right-0 bottom-[15%]">
+           <div className="hidden md:block md:bottom-[45%] lg:block absolute right-0 bottom-[15%]">
                 <Image src={bigRingDesktop} alt="big ring" width={40} height={50} />
             </div>
           <div className="max-w-7xl mx-auto grid lg:grid-cols-4 gap-6 relative"> 
@@ -42,7 +42,7 @@ export default function FirstSection() {
                      <div className="md:hidden absolute left-[3%] -top-[2%]">
                       <Image src={ruggedCrownMobile} alt="crown for mobile" width={24} height={36} />
                   </div>
-                  <div className="hidden md:block absolute -left-[5%] -top-[8%]">
+                  <div className="hidden md:block absolute -left-[0.5%] -top-[8%] lg:-left-[2%]">
                       <Image src={ruggedCrownDesktop} alt="crown for desktop" width={60} height={65} />
                   </div>
                       <div>
@@ -140,13 +140,13 @@ export default function FirstSection() {
                 <div className="relative lg:col-span-2 mt-2 p-6 z-20 flex flex-col items-center justify-center">
                       <Image src={manAndWomanOnLaptops} alt="man and woman on laptops" width={353} height={273} className="md:hidden" />
                       <Image src={manAndWomanOnLaptopsDesktop} alt="man and woman on laptops" width={900} height={700} className="hidden md:block" />
-                      <div className="hidden md:block absolute -right-[4%] bottom-[10%] -z-10">
+                      <div className="hidden md:block md:right-0 lg:block absolute -right-[4%] bottom-[10%] -z-10">
                         <Image src={scatteredOval} alt="scattered oval" width={199} height={236} />
                       </div>
                       <div className="md:hidden absolute right-0 top-[10%]">
                           <Image src={bigRingMobile} alt="big ring for mobile" width={45} height={47} className="w-11 h-12" />
                       </div>
-                      <div className="absolute left-[10%] top-[20%] md:left-[5%]">
+                      <div className="absolute left-[10%] top-[20%] md:left-[10%] lg:left-[5%]">
                             <div className="bg-white border-white border-2 shadow rounded-sm p-1.5 md:p-2 md:rounded-md" >
                               <h6 className={`${satoshiFont} font-bold text-[6px] text-center md:text-xs`}>255k+ Enrolled Students</h6>
                               <div className="flex justify-center">

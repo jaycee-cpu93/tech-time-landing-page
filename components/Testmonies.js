@@ -84,7 +84,7 @@ export default function Testmonies() {
                 style={{ flex: `0 0 ${100 / slidesToShow}%` }}
               >
                 <div className="bg-white  px-4 py-2 md:p-6 rounded-2xl shadow-lg h-full flex flex-col justify-between">
-                  <p className={`${satoshiFontRegular.className} text-textSecondary text-tiny md:text-sm leading-snug w-80`}> {t.quote}</p>
+                  <p className={`${satoshiFontRegular.className} text-textSecondary text-tiny md:text-sm leading-snug w-80 md:w-[500px] lg:w-full`}> {t.quote}</p>
                   <div className={`${satoshiFont.className} mt-6 flex items-center`}>
                     <Image
                       src={t.avatar}

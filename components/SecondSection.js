@@ -22,7 +22,7 @@ export default function SecondSection() {
             className="w-auto h-auto max-w-[70px] max-h-[50px]"
           />
         </div>
-        <div className="absolute left-0 bottom-[5%] md:bottom-[10%] md:left-[2%]">
+        <div className="absolute left-0 bottom-[5%] md:bottom-[10%] md:left-0 lg:left-[2%]">
           <Image
             src={greenInvertedTriangle}
             alt="green inverted triangle"
@@ -35,7 +35,7 @@ export default function SecondSection() {
             alt="green inverted triangle"
             width={30}
             height={30}
-            className="w-auto h-auto max-w-[30px] max-h-[30px] hidden md:block"
+            className="w-auto h-auto max-w-[25px] max-h-[25px] hidden md:block"
           />
         </div>
         <div className="absolute right-[1%] bottom-[30%] md:bottom-1">
